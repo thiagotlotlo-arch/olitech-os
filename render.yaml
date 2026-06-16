@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: olitech-erp-v44
+    env: static
+    buildCommand: npm install --no-audit --no-fund && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
