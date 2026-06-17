@@ -1,18 +1,19 @@
-# Olitech ERP V44 Limpo Estável
+# Olitech ERP V44.1 - WhatsApp/Campanhas corrigido
 
-Versão recriada do zero para corrigir erro de páginas.
+Base limpa V44 com funções de WhatsApp/Campanhas no padrão do sistema de agendamento.
 
-Importante:
-- Não usa rotas /clientes, /produtos ou /os.
-- As abas trocam internamente, sem Not Found.
-- Pode excluir todos os arquivos antigos do GitHub e subir somente este ZIP.
+Inclui:
+- WhatsApp Evolution com QR Code
+- Conectar celular / gerar QR Code
+- Trocar número / desconectar
+- Atualizar status
+- Enviar teste
+- Campanhas com prévia e envio
+- Cobranças por WhatsApp com PIX/link
+- Navegação interna sem Not Found
 
 Render:
 - Static Site
 - Build Command: npm install --no-audit --no-fund && npm run build
 - Publish Directory: dist
-- Depois: Clear Build Cache & Deploy
-
-Login padrão:
-- usuário: olitech
-- senha: 051309
+- Clear Build Cache & Deploy
